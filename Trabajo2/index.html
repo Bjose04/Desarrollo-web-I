@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>iPhone 17 — Ficha, Galería y Formulario</title>
+  <style>
+    :root{--accent:#0a84ff;--muted:#666}
+    body{font-family:Inter, system-ui, -apple-system, Roboto, "Helvetica Neue", Arial; margin:0; line-height:1.5; color:#111}
+    header{background:linear-gradient(90deg,#0a84ff22,#ffffff); padding:18px 24px; box-shadow:0 2px 6px rgba(10,132,255,0.06); position:sticky; top:0; z-index:10}
+    nav{display:flex; gap:12px; align-items:center}
+    nav a{color:var(--accent); text-decoration:none; font-weight:600}
+    .container{max-width:1100px; margin:28px auto; padding:0 18px}
+    h1{margin:6px 0 8px}
+    .hero{display:grid; grid-template-columns:1fr 360px; gap:18px; align-items:center}
+    .card{background:#fff; border-radius:12px; padding:16px; box-shadow:0 6px 18px rgba(20,20,20,0.04)}
+    .gallery{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px}
+    img{max-width:100%; border-radius:8px}
+    table{width:100%; border-collapse:collapse}
+    th,td{padding:10px; border-bottom:1px solid #eee; text-align:left}
+    th{background:#fafafa}
+    footer{padding:24px; text-align:center; color:var(--muted)}
+    .form-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px}
+    label{display:block; font-size:0.9rem; margin-bottom:6px}
+    input,select,textarea{width:100%; padding:8px 10px; border:1px solid #ddd; border-radius:6px}
+    .btn{background:var(--accent); color:white; padding:10px 14px; border:none; border-radius:8px; cursor:pointer}
+    .specs-wrap{display:flex; gap:18px; flex-wrap:wrap}
+    .video-wrap{position:relative; padding-top:56.25%;}
+    .video-wrap iframe{position:absolute; inset:0; width:100%; height:100%; border:0}
+    nav .logo{font-weight:800; color:#0b5bd8}
+    .small{font-size:0.9rem; color:var(--muted)}
+    @media (max-width:880px){.hero{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <div style="flex:1; display:flex; align-items:center; gap:14px">
+        <div class="logo">iPhone17Lab</div>
+        <a href="#overview">Overview</a>
+        <a href="#especificaciones">Especificaciones</a>
+        <a href="#galeria">Galería</a>
+        <a href="#video">Video</a>
+        <a href="#comparativa">Comparativa</a>
+        <a href="#compra">Formulario</a>
+      </div>
+      <div class="small">Última actualización: 02 Oct 2025</div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="overview" class="hero">
+      <div class="card">
+        <h1>iPhone 17</h1>
+        <p class="small">Ficha técnica, galería y formulario de interés. Esta página es un ejemplo completo con imágenes, tablas y un formulario de 10+ campos.</p>
+        <p>El iPhone 17 (modelo conceptual) combina rendimiento, cámara avanzada y una pantalla de alta fidelidad. A continuación encontrarás especificaciones, comparativas, galería con imágenes y un video demostrativo.</p>
+        <div style="margin-top:12px">
+          <a href="#compra" class="btn">Enviar interés / Reservar</a>
+        </div>
+      </div>
+
+      <aside class="card">
+        <h3>Precio estimado</h3>
+        <p style="font-size:1.4rem; margin:6px 0;">Desde <strong>$999</strong></p>
+        <p class="small">Precio sugerido y ejemplos de configuración en la tabla de comparativa.</p>
+        <div style="margin-top:10px; font-size:0.95rem">
+          <b>Colores:</b> Midnight, Starlight, Verde Aurora, Oro
+        </div>
+      </aside>
+    </section>
+
+    <section id="especificaciones" style="margin-top:22px">
+      <div class="card">
+        <h2>Especificaciones técnicas</h2>
+        <div class="specs-wrap">
+          <table aria-label="Especificaciones principales">
+            <thead>
+              <tr><th>Elemento</th><th>Detalle</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Pantalla</td><td>6.3" OLED ProMotion 120Hz, True Tone</td></tr>
+              <tr><td>Procesador</td><td>Apple A19 Bionic (concept)</td></tr>
+              <tr><td>RAM</td><td>8 GB</td></tr>
+              <tr><td>Almacenamiento</td><td>128 / 256 / 512 / 1 TB</td></tr>
+              <tr><td>Cámara trasera</td><td>Triple 48MP + 12MP ultra + LiDAR</td></tr>
+              <tr><td>Batería</td><td>~4200 mAh (gestión inteligente)</td></tr>
+              <tr><td>Conectividad</td><td>5G, Wi‑Fi 6E, Bluetooth 5.4, UWB</td></tr>
+              <tr><td>Sistema operativo</td><td>iOS 19 (compatible)</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" style="margin-top:22px">
+      <div class="card">
+        <h2>Galería de imágenes</h2>
+        <p class="small">Imágenes de ejemplo. (Reemplaza las URLs por fotos reales de producto si las vas a usar en un sitio público.)</p>
+        <div class="gallery">
+          <img src="C:\Users\VALERIA\Desktop\bayron\Miprimerpagina/frontal.png" alt="iPhone 17 frontal">
+          <img src="C:\Users\VALERIA\Desktop\bayron\Miprimerpagina/posterior.png" alt="iPhone 17 trasera">
+          <img src="C:\Users\VALERIA\Desktop\bayron\Miprimerpagina/camaras.png" alt="iPhone 17 cámaras">
+          <img src="C:\Users\VALERIA\Desktop\bayron\Miprimerpagina/lateral.png" alt="iPhone 17 lateral">
+        </div>
+      </div>
+    </section>
+
+    <section id="video" style="margin-top:22px">
+      <div class="card">
+        <h2>Video demostrativo</h2>
+        <p class="small">Video embebido (ejemplo de YouTube). Si vas a publicar, cambia el enlace por el video oficial.</p>
+        <div class="video-wrap">
+          <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video demo" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="comparativa" style="margin-top:22px">
+      <div class="card">
+        <h2>Comparativa rápida</h2>
+        <table>
+          <thead><tr><th>Modelo</th><th>Pantalla</th><th>Cámara principal</th><th>Precio (base)</th></tr></thead>
+          <tbody>
+            <tr><td>iPhone 16</td><td>6.1" OLED</td><td>48MP</td><td>$799</td></tr>
+            <tr><td>iPhone 17</td><td>6.3" OLED 120Hz</td><td>48MP triple</td><td>$999</td></tr>
+            <tr><td>iPhone 17 Pro</td><td>6.7" OLED 120Hz</td><td>48MP triple + tele</td><td>$1199</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="compra" style="margin-top:22px">
+      <div class="card">
+        <h2>Formulario de interés / Reserva (mínimo 10 campos)</h2>
+        <p class="small">Rellena los campos y pulsa <strong>Enviar</strong>. Esta es una demostración con validación básica en el navegador.</p>
+        <form id="interestForm" onsubmit="return handleSubmit(event)">
+          <div class="form-grid">
+            <div>
+              <label for="name">Nombre completo *</label>
+              <input id="name" name="name" type="text" required>
+            </div>
+            <div>
+              <label for="email">Correo electrónico *</label>
+              <input id="email" name="email" type="email" required>
+            </div>
+            <div>
+              <label for="phone">Teléfono / Celular</label>
+              <input id="phone" name="phone" type="tel" pattern="[0-9+\-() ]{6,20}">
+            </div>
+            <div>
+              <label for="country">País</label>
+              <select id="country" name="country">
+                <option value="">--Selecciona--</option>
+                <option>Colombia</option>
+                <option>España</option>
+                <option>México</option>
+                <option>Estados Unidos</option>
+              </select>
+            </div>
+
+            <div>
+              <label>Color preferido</label>
+              <div style="display:flex; gap:8px; align-items:center">
+                <label><input type="radio" name="color" value="Midnight" checked> Midnight</label>
+                <label><input type="radio" name="color" value="Starlight"> Starlight</label>
+                <label><input type="radio" name="color" value="Verde"> Verde</label>
+              </div>
+            </div>
+
+            <div>
+              <label for="storage">Capacidad</label>
+              <select id="storage" name="storage">
+                <option>128 GB</option>
+                <option>256 GB</option>
+                <option>512 GB</option>
+                <option>1 TB</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="date">Fecha estimada de compra</label>
+              <input id="date" name="date" type="date">
+            </div>
+
+            <div>
+              <label for="quantity">Cantidad</label>
+              <input id="quantity" name="quantity" type="number" min="1" max="10" value="1">
+            </div>
+
+            <div>
+              <label for="retailer">Tienda preferida</label>
+              <input id="retailer" name="retailer" type="text" placeholder="Ej. Apple Store - Centro Comercial">
+            </div>
+
+            <div>
+              <label for="budget">Presupuesto aproximado (USD)</label>
+              <input id="budget" name="budget" type="range" min="500" max="3000" value="1000">
+              <div class="small">Valor: <span id="budgetVal">1000</span> USD</div>
+            </div>
+
+            <div>
+              <label for="file">Subir documento (opcional)</label>
+              <input id="file" name="file" type="file" accept=".pdf,.jpg,.png">
+            </div>
+
+            <div style="grid-column:1/-1">
+              <label for="comments">Comentarios / Observaciones</label>
+              <textarea id="comments" name="comments" rows="4" placeholder="Escribe aquí cualquier preferencia especial..."></textarea>
+            </div>
+
+            <div style="grid-column:1/-1; display:flex; gap:12px; align-items:center">
+              <label><input type="checkbox" id="subscribe" name="subscribe"> Deseo recibir noticias y ofertas</label>
+              <div style="margin-left:auto">
+                <button type="submit" class="btn">Enviar</button>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <div id="result" style="margin-top:12px; display:none; padding:12px; border-radius:8px; background:#f3fff9; color:#015b2f"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="small">Página de ejemplo — contenido no oficial. Imágenes de muestra. &copy; 2025 iPhone17Lab</p>
+    </div>
+  </footer>
+
+  <script>
+    // Interactividad del formulario
+    const budget = document.getElementById('budget');
+    const budgetVal = document.getElementById('budgetVal');
+    budget.addEventListener('input', ()=> budgetVal.textContent = budget.value);
+
+    function handleSubmit(e){
+      e.preventDefault();
+      const form = document.getElementById('interestForm');
+      const data = new FormData(form);
+      // Construir resumen
+      const summary = [];
+      for(const [k,v] of data.entries()){
+        summary.push(`${k}: ${v}`);
+      }
+      const result = document.getElementById('result');
+      result.style.display = 'block';
+      result.innerHTML = `<strong>Formulario enviado correctamente.</strong><br>Resumen: <pre style="white-space:pre-wrap">${summary.join('\n')}</pre>`;
+      // Limpiar el formulario si quieres: form.reset();
+      return false;
+    }
+
+    // Smooth scroll for nav links
+    document.querySelectorAll('nav a').forEach(a=>{
+      a.addEventListener('click', (ev)=>{
+        ev.preventDefault();
+        const id = a.getAttribute('href').substring(1);
+        const el = document.getElementById(id);
+        if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+      })
+    })
+  </script>
+</body>
+</html>
